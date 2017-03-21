@@ -1,23 +1,29 @@
 # Fetch-Helper
 > auto handle response after fetch
 
+### Install
+
+```shell
+npm i --save fetch-helper
+```
+
 ### Usage
 
-```
-import handleRes from '/path/to/module'
+```js
+import handleResponse from 'fetch-helper'
 
-import {handleRes} from '/path/to/module'
+import {handleResponse} from 'fetch-helper'
 ```
 
 or
 
-```
-var handleRes = require('/path/to/module')
+```js
+var handleResponse = require('fetch-helper')
 ```
 
-```
+```js
 fetch('/path/to/data')
-  .then(handleRes)
+  .then(handleResponse)
   .then(res => {
     // data here.
   })
