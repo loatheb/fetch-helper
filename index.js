@@ -1,4 +1,4 @@
-const handleRes = response => {
+const handleResponse = response => {
   const contentType = response.headers.get('Content-Type')
 
   const isJson = /^application\/json/
@@ -33,4 +33,4 @@ const handleRes = response => {
   return Promise.resolve(result, response)
 }
 
-module.exports = handleRes.handleRes = handleRes['default'] = handleRes
+module.exports = handleResponse.handleResponse = handleResponse['default'] = handleResponse

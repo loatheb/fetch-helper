@@ -1,0 +1,23 @@
+{
+  "name": "fetch-helper",
+  "version": "1.0.0",
+  "description": "auto handle response after fetch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loatheb/fetch-helper.git"
+  },
+  "keywords": [
+    "fetch",
+    "handle-response"
+  ],
+  "author": "loatheb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loatheb/fetch-helper/issues"
+  },
+  "homepage": "https://github.com/loatheb/fetch-helper#readme"
+}
